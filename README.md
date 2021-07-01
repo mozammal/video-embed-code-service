@@ -1,4 +1,4 @@
-## REST APIs for Converting Youtube video url to embed code.
+## Reactive Spring REST APIs for Converting Youtube video url to embed code.
 
 ### Running Locally
 The only dependencies for running this example are:
@@ -16,7 +16,9 @@ $ mvn clean package
 $ mvn jib:dockerBuild
 $ kubectl apply -f deploy.yml
 ```
+
 use the following command to get detailed information about the service:
+
 ```sh
 $kubectl describe services video-embed-code-service
 ```
