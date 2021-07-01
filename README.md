@@ -22,8 +22,10 @@ use the following command to get detailed information about the service:
 ```sh
 $kubectl describe services video-embed-code-service
 ```
-```
+
 The output is similar to:
+
+```
 Name:                     video-embed-code-service
 Namespace:                default
 Labels:                   app=video-embed-code-service
