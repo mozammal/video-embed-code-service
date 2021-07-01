@@ -1,6 +1,6 @@
-## Reactive Spring REST APIs for Converting Youtube video url to embed code.
+# Reactive Spring REST APIs for Converting Youtube video url to embed code.
 
-### Running Locally
+## Running Locally
 The only dependencies for running this example are:
 
 - [Docker Compose][https://www.docker.com/)
